@@ -29,9 +29,9 @@ Each card links to a live Vercel (or production) deploy. GitHub repos are second
 | TradingAgents  | Multi-agent AI      | https://trading-agents.bugfoot.net                |
 | Till & Ticket  | Payments            | https://till-and-ticket.vercel.app                |
 | Pulseboard     | Authentication      | https://pulseboard-eight-kappa.vercel.app         |
-| Harborline     | Real-time           | https://harborline.vercel.app                     |
-| Oak & Ember    | LLM product support | https://oak-and-ember.vercel.app                  |
-| Vinyl Archive  | CRUD API            | https://vinyl-archive.vercel.app                  |
+| Harborline     | Real-time (SSE)     | https://harborline-eosin.vercel.app               |
+| Oak & Ember    | LLM product support | https://oak-and-ember-beta.vercel.app             |
+| Vinyl Archive  | CRUD API            | https://vinyl-archive-khaki.vercel.app            |
 
 Update copy, stack tags, and URLs in `src/data/projects.ts` and `src/data/profile.ts`.
 

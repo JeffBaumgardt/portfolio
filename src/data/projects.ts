@@ -11,6 +11,11 @@ export type Project = {
 	featured?: boolean
 }
 
+/**
+ * Live URLs from the jeffbaumgardts-projects Vercel team (production aliases).
+ * Prefer team-project domains over bare project names — several short names
+ * collide with unrelated apps on the Vercel network.
+ */
 export const projects: Project[] = [
 	{
 		id: "trading-agents",
@@ -56,11 +61,11 @@ export const projects: Project[] = [
 		name: "Harborline",
 		useCase: "Real-time",
 		description:
-			"Logistics facility ops board driven by a WebSocket simulation — live stages, KPIs, and charts.",
-		stack: ["Next.js", "WebSocket", "Recharts", "Custom Node server", "TypeScript"],
+			"Logistics facility ops board driven by a Server-Sent Events simulation — live stages, KPIs, and charts.",
+		stack: ["Next.js", "SSE", "EventSource", "Recharts", "Zod", "TypeScript"],
 		image: "/projects/harborline.png",
 		imageAlt: "Harborline live logistics dashboard marketing visual",
-		liveUrl: "https://harborline.vercel.app",
+		liveUrl: "https://harborline-eosin.vercel.app",
 		repoUrl: "https://github.com/JeffBaumgardt/harborline",
 	},
 	{
@@ -72,7 +77,7 @@ export const projects: Project[] = [
 		stack: ["Next.js", "Anthropic SDK", "Zod", "Streaming chat", "Tailwind"],
 		image: "/projects/oak-and-ember.png",
 		imageAlt: "Oak & Ember cast-iron shop with AI support marketing visual",
-		liveUrl: "https://oak-and-ember.vercel.app",
+		liveUrl: "https://oak-and-ember-beta.vercel.app",
 		repoUrl: "https://github.com/JeffBaumgardt/oak-and-ember",
 	},
 	{
@@ -84,7 +89,7 @@ export const projects: Project[] = [
 		stack: ["Next.js", "Server Actions", "REST API", "Zod", "TypeScript"],
 		image: "/projects/vinyl-archive.png",
 		imageAlt: "Vinyl Archive CRUD collection marketing visual",
-		liveUrl: "https://vinyl-archive.vercel.app",
+		liveUrl: "https://vinyl-archive-khaki.vercel.app",
 		repoUrl: "https://github.com/JeffBaumgardt/vinyl-archive",
 	},
 ]
