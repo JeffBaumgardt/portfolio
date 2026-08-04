@@ -22,7 +22,7 @@ const mono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://jeffbaumgardt.vercel.app"),
+	metadataBase: new URL("https://portfolio-eight-navy-22.vercel.app"),
 	title: {
 		default: "Jeff Baumgardt — Senior Full-Stack Engineer",
 		template: "%s · Jeff Baumgardt",
