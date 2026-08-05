@@ -57,6 +57,19 @@ export const projects: Project[] = [
 		featured: true,
 	},
 	{
+		id: "ledgerline",
+		name: "Ledgerline",
+		useCase: "Testing & CI",
+		description:
+			"Invoice and expense tracker with integer-cents money, CSV export, Vitest + Playwright, and public HTML CI reports.",
+		stack: ["Next.js", "Clerk", "Supabase", "Vitest", "Playwright", "TanStack Table"],
+		image: "/projects/ledgerline.png",
+		imageAlt: "Ledgerline invoices and expenses marketing visual",
+		liveUrl: "https://ledgerline-wheat-one.vercel.app",
+		repoUrl: "https://github.com/JeffBaumgardt/ledgerline",
+		featured: true,
+	},
+	{
 		id: "harborline",
 		name: "Harborline",
 		useCase: "Real-time",
