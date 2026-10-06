@@ -26,7 +26,6 @@ Each card links to a live Vercel (or production) deploy. GitHub repos are second
 
 | Project        | Use case            | Live                                              |
 |----------------|---------------------|---------------------------------------------------|
-| TradingAgents  | Multi-agent AI      | https://trading-agents.bugfoot.net                |
 | Till & Ticket  | Payments            | https://till-and-ticket.vercel.app                |
 | Pulseboard     | Authentication      | https://pulseboard-eight-kappa.vercel.app         |
 | Ledgerline     | Testing & CI        | https://ledgerline-wheat-one.vercel.app           |

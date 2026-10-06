@@ -18,19 +18,6 @@ export type Project = {
  */
 export const projects: Project[] = [
 	{
-		id: "trading-agents",
-		name: "TradingAgents",
-		useCase: "Multi-agent AI",
-		description:
-			"LLM trading desk: specialized agents debate markets, risk, and portfolio decisions in a live Next.js UI.",
-		stack: ["Next.js", "Clerk", "Stripe", "LangGraph", "Railway", "Supabase"],
-		image: "/projects/trading-agents.png",
-		imageAlt: "TradingAgents multi-agent trading platform marketing visual",
-		liveUrl: "https://trading-agents.bugfoot.net",
-		repoUrl: "https://github.com/JeffBaumgardt/TradingAgents",
-		featured: true,
-	},
-	{
 		id: "till-and-ticket",
 		name: "Till & Ticket",
 		useCase: "Payments",
